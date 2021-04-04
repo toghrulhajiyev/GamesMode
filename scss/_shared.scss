@@ -1,0 +1,60 @@
+a {
+    text-decoration: none;
+    color: $text-color;
+
+    &:hover {
+        text-decoration: none;
+        color: $text-color;
+    }
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    color: $text-color;
+}
+
+i, p, span {
+    color: $text-color;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: $white-color;
+}
+
+// Active Classes
+.active {
+    background-color: $main-color;
+    padding: 0.5em;
+    color: $white-color;
+    border-radius: 8em;
+
+    &:hover {
+        background-color: $white-color;
+        color: $main-color;
+    }
+}
+
+.active-nav-menu {
+    background-color: #2f2f2f;
+    padding: .6em 1.6em;
+    border-radius: .7em;
+}
+
+// Discount Price
+.discount {
+    color: $discount-color;
+    background-color: $discount-bg;
+    border-radius: 6px;
+    padding: 0.25em;
+    margin-right: 0.8em;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #EBEBF5;
+    margin-right: 1em;
+}
+
+.price {
+    color: $white-color;
+}

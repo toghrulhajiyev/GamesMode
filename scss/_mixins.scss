@@ -1,0 +1,5 @@
+@mixin btn($bg-color, $color) {
+    background-color: $bg-color;
+    color: $color;
+    transition: all .3s linear;
+}
